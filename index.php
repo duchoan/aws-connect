@@ -3,8 +3,9 @@
         <script src="amazon-connect-1.3-24-g6eecc23.js"></script>
     </head>
 	<div id="containerDiv" style="height:465px;width:320px;"></div>
-	<div id="callerNo" style="height:465px;width:320px;"></div>
-	<div id="attributes" style="height:465px;width:320px;"></div>
+	<div style="float:left" id="callerNo" style="height:465px;width:320px;"></div>
+	<div style="float:left" id="attributes" style="height:465px;width:320px;"></div>
+	<p id="phoneNo"></p>
     <body>
         <script>
 			connect.core.initCCP(containerDiv, {
