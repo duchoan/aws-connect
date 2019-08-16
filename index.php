@@ -75,7 +75,7 @@
             });
         }
     });
-	contact.onIncoming(function(contact){
+	connect.onIncoming(function(contact){
 		console.log(contact);
 	});
     // 履歴用オブジェク（１通話分）
