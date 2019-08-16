@@ -75,7 +75,9 @@
             });
         }
     });
- 
+	contact.onIncoming(function(contact){
+		console.log(contact);
+	});
     // 履歴用オブジェク（１通話分）
     class Contact {
         // 発信開始でオブジェクトを生成する
