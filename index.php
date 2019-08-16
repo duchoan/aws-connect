@@ -73,11 +73,11 @@
                 // コンタクト接続（履歴用のオブジェクトに接続を記録）
                 currentContact.connected();
             });
+			contact.onIncoming(function(contact){
+				console.log(contact);
+			});
         }
     });
-	connect.onIncoming(function(contact){
-		console.log(contact);
-	});
     // 履歴用オブジェク（１通話分）
     class Contact {
         // 発信開始でオブジェクトを生成する
