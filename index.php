@@ -10,7 +10,7 @@
 			connect.core.initCCP(containerDiv, {
 			  ccpUrl:        'https://bottomup-otamagaike.awsapps.com/connect/ccp#/',    /*REQUIRED (*** has been replaced) */
 			  loginPopup:    true,          /*optional, default TRUE*/
-			  loginUrl: 'https://bottomup-otamagaike.awsapps.com/auth/?client_id=9d48c6add41f4abd&redirect_uri=https%3A%2F%2Fbottomup-otamagaike.awsapps.com%2Fconnect%2Fauth%2Fcode',
+			  loginUrl: 'https://bottomup-otamagaike.awsapps.com/connect/login',
 			  softphone:     {              /*optional*/
 				allowFramedSoftphone: true
 			  }
