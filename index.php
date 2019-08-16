@@ -3,11 +3,14 @@
         <script src="amazon-connect-1.3-24-g6eecc23.js"></script>
     </head>
 	<div id="containerDiv" style="height:465px;width:320px;"></div>
+	<div id="callerNo" style="height:465px;width:320px;"></div>
+	<div id="attributes" style="height:465px;width:320px;"></div>
     <body>
         <script>
 			connect.core.initCCP(containerDiv, {
 			  ccpUrl:        'https://bottomup-otamagaike.awsapps.com/connect/ccp#/',    /*REQUIRED (*** has been replaced) */
 			  loginPopup:    true,          /*optional, default TRUE*/
+			  loginUrl: 'https://bottomup-otamagaike.awsapps.com/auth/?client_id=9d48c6add41f4abd&redirect_uri=https%3A%2F%2Fbottomup-otamagaike.awsapps.com%2Fconnect%2Fauth%2Fcode',
 			  softphone:     {              /*optional*/
 				allowFramedSoftphone: true
 			  }
